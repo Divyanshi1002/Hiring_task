@@ -1,0 +1,38 @@
+﻿Market Analysis Summary
+Key Findings:
+  
+
+* Older Families:
+
+   * Particularly engaged with "Budget" products, older families contribute significantly to sales. Their purchase frequency shows a mix of frequent and occasional buying behavior, offering both opportunities for loyalty programs and occasional promotions.
+   *  Older families purchase more from budget-friendly products and if targeted discounts or promotions drive increased sales.
+  
+
+   * Leverage Tuesdays: Given that Tuesdays are the peak transaction day across all groups, consider scheduling special promotions on this day to maximize sales
+   * Peak Transaction Days by Lifestage:
+   * Older Singles/Couples: peak on Tuesday with 7989 transactions, reflecting strong mid-week activity.
+   * Older Singles/Couples: peak on Tuesday with 7989 transactions, reflecting strong mid-week activity.
+   * Retirees: Tuesday is the most active day, with 7270 transactions.
+   * Older Families: Tuesday leads with 7091 transactions, showing high engagement on this day.
+   * Young Families: Peak on Tuesday with 6388 transactions, indicating similar behavior to older families
+   * Young Singles/Couples: While Tuesday is the peak day, transactions drop slightly to 5345, suggesting lower overall engagement.
+   * New Families: Most transactions occur on Tuesday (1014 transactions), with consistent mid-week shopping.
+  
+
+   * Customize Offers for Older Families as they have most repeat purchase: Focus on affordable products and offer exclusive promotion
+
+
+Feature Importance in Predicting Total Sales
+Based on the Random Forest Regression model, the features impacting total sales (TOT_SALES) are ranked as follows:
+  
+
+   1. PROD_QTY (Most Important): The number of products purchased is the strongest predictor of total sales.
+Bulk-buy promotions could increase revenue by encouraging customers to purchase more.
+   2. PURCHASE_FREQUENCY (Second Most Important): Frequent purchases are a significant driver of total sales.
+Loyalty programs and personalized promotions could boost repeat purchases, enhancing sales.
+   3. TIME_SINCE_FIRST_PURCHASE: The length of time a customer has been shopping with the company affects sales, though less than product quantity or purchase frequency.
+Loyal customers may contribute more in the long run, but new customers can also be engaged with targeted offers.
+   4. LIFESTAGE_ENC (Demographic Influence): A customer's lifestage impacts sales, though to a lesser extent than purchasing behavior.
+Tailored marketing strategies based on lifestage preferences can improve sales.
+   5. PREMIUM_CUSTOMER_ENC (Least Important): Being a premium customer has the least impact on total sales.
+Reassess the premium customer program to ensure it drives higher spending.
